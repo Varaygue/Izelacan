@@ -10,9 +10,9 @@ FBXHeaderExtension:  {
 		Month: 11
 		Day: 21
 		Hour: 16
-		Minute: 9
-		Second: 14
-		Millisecond: 665
+		Minute: 30
+		Second: 22
+		Millisecond: 112
 	}
 	Creator: "FBX SDK/FBX Plugins version 2020.3.2"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -34,13 +34,13 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
 			P: "Original|ApplicationVersion", "KString", "", "", "2024"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "21/11/2023 15:09:14.665"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "21/11/2023 15:30:22.112"
 			P: "Original|FileName", "KString", "", "", "C:\Users\l_carlier2\Desktop\Mudulkit\stair.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2024"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "21/11/2023 15:09:14.665"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "21/11/2023 15:30:22.112"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "C:\Users\l_carlier2\Documents\3ds Max 2024"
 			P: "Original|ApplicationNativeFile", "KString", "", "", "C:\Users\l_carlier2\Documents\3ds Max 2024\scenes\temple modulkit.max"
 		}
@@ -77,7 +77,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 1695143970352, "", "Scene" {
+	Document: 1695143974960, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -198,7 +198,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 1694819793264, "Geometry::", "Mesh" {
+	Geometry: 1693789642208, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.341176470588235,0.882352941176471,0.776470588235294
 		}
@@ -274,7 +274,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 1695050379504, "Model::SpiralStair001", "Mesh" {
+	Model: 1695229283744, "Model::SpiralStair001", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
@@ -282,8 +282,9 @@ Objects:  {
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Translation", "Lcl Translation", "", "A",29.6897850036621,0,-186.726654052734
-			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,-0,1.00179122619506e-05
+			P: "Lcl Translation", "Lcl Translation", "", "A",32.1748542785645,0,-297.488311767578
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,-0,1.00179122182792e-05
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1.349133,1.349133,1
 			P: "MaxHandle", "int", "Integer", "UH",564
 		}
 		Shading: T
@@ -297,8 +298,8 @@ Objects:  {
 Connections:  {
 	
 	;Model::SpiralStair001, Model::RootNode
-	C: "OO",1695050379504,0
+	C: "OO",1695229283744,0
 	
 	;Geometry::, Model::SpiralStair001
-	C: "OO",1694819793264,1695050379504
+	C: "OO",1693789642208,1695229283744
 }
