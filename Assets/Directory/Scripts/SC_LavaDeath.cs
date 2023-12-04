@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class LavaDeath : MonoBehaviour
+public class SC_LavaDeath : MonoBehaviour
 {
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider lavaBlock)
     {
-        Debug.Log("Burned !");
+        SceneManager.LoadScene("Test_Blockout");
     }
 }

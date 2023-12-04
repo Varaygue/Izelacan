@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PuzzleDisk : MonoBehaviour
+public class SC_PuzzleDisk : MonoBehaviour
 {
     public bool inZone = false;
     public GameObject puzzlePanel;

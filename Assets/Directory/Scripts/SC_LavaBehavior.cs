@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LavaBehavior : MonoBehaviour
+public class SC_LavaBehavior : MonoBehaviour
 {
     public GameObject lavaObject;
     public bool endGame = false;
