@@ -6,6 +6,12 @@ TagManager:
   tags:
   - CinemachineTarget
   - PuzzleZone
+  - buttonRange
+  - lavaTrigger
+  - lavaBlock
+  - Axe
+  - Darts
+  - Plate
   layers:
   - Default
   - TransparentFX
